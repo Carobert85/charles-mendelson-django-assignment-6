@@ -7,6 +7,7 @@ from blogging.models import Post, Category
 
 class CategoryAdmin(admin.ModelAdmin):
     exclude = ('Posts',)
+    # pass
 
 
 class CategoryInLine(admin.TabularInline):
